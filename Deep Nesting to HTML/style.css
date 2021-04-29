@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #faf8f8;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-btw {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 3;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    padding: 10px;
+}
+
+header {
+    background-image: url("https://easymeals.qodeinteractive.com/wp-content/uploads/2020/06/h4-img-24.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.welcome {
+    padding: 150px 150px 150px 50px;
+}
+
+.nav {
+    padding: 0 100px;
+}
+
+.midnav li{
+    font-size: 17px;
+}
+
+.socialmeadia li{
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+.easy {
+    font-size: 30px ;
+    padding: 0 50px;
+}
+
+.info {
+    width: 550px;
+}
+
+
+.herotext {
+    font-size: 20px;
+    color: #a09d9d;
+}
+
+.lineheight {
+    line-height: 1.5;
+}
+
+.maincolor {
+    color: #a09d9d;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-0-20 {
+    margin: 0 20px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.m-r-20 {
+    margin-right: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 30px;
+}
+
+.p-20-50 {
+    padding: 20px 50px;
+}
+
+.m-0-20 {
+    margin: 0 30px;
+}
+
+.p-r-80 {
+    padding-right: 80px;
+}
+
+.authorinfo img {
+    height: 40px;
+    width: 40px;
+}
+
+.whitepad {
+    background-color: white;
+}
+
+.btn, .joinus {
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-height: 30px;
+    padding: 15px 80px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+img {
+    width: 100%;
+}
+
+.hoveris:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hoveris:hover {
+    overflow: hidden;
+}
+
+.font-20 {
+    font-size: 17px;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.joinus {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+}
+
+input {
+    height: 50px;
+}
+
+.midnav ul li a {
+    position: relative;
+}
+
+.midnav ul li a i{
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+
+@media (max-width: 1250px) {
+    .column-vwd {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1124px) {
+    .hide-wd {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .maxnone {
+        display: none;
+    }
+}
+
+@media (max-width: 1025px) {
+    .block {
+        display: block;
+    }
+
+    .column-wd {
+        flex-direction: column;
+    }
+
+    .row-wd {
+        flex-direction: row;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+    .none1025 {
+        display: none;
+    }
+    .info {
+        padding-left: 120px;
+    }
+}
+
+
+
+
+@media (max-width: 825px) {
+    .column-md {
+        flex-direction: column;
+    }
+
+    .none825 {
+        display: none;
+    }
+    .flex-btw-md {
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 680px) {
+    .column-md680 {
+        flex-direction: column;
+    }
+    .none680 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 610px) {
+    .column-sm {
+        flex-direction: column;
+    }
+    .info {
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .flex-wrap-sm {
+        flex-wrap: wrap;
+    }
+    .center-sm {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .column-xs {
+        flex-direction: column;
+    }
+}
